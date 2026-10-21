@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPTEL MIS Source PDF Viewer (1,163 Pages Grounded)</title>
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .pdf-topbar {
+            background-color: #0f172a;
+            color: #ffffff;
+            padding: 0.65rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+            z-index: 50;
+        }
+        .pdf-frame-wrapper {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background-color: #334155;
+        }
+        .pdf-frame {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .jump-box {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            background-color: #1e293b;
+            padding: 0.3rem 0.6rem;
+            border-radius: var(--radius-sm);
+            border: 1px solid #334155;
+            font-size: 0.82rem;
+        }
+        .page-input {
+            width: 55px;
+            padding: 0.2rem 0.4rem;
+            text-align: center;
+            background-color: #0f172a;
+            color: #fbbf24;
+            border: 1px solid #475569;
+            border-radius: 4px;
+            font-family: var(--font-mono);
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PDF Viewer Top Bar -->
+    <header class="pdf-topbar">
+        <div style="display: flex; align-items: center; gap: 1rem;">
+            <a href="/" style="display: inline-flex; align-items: center; gap: 0.4rem; color: #38bdf8; font-weight: 700; font-size: 0.85rem; text-decoration: none;">
+                &larr; Back to Dashboard
+            </a>
+            <div style="width: 1px; height: 20px; background: rgba(255,255,255,0.2);"></div>
+            <div>
+                <span style="font-weight: 800; font-size: 0.95rem; color: #ffffff;">MIS Week 1_merged.pdf</span>
+                <span style="font-size: 0.75rem; color: #94a3b8; margin-left: 0.5rem; font-family: var(--font-mono);">(1,163 Pages &bull; 60 Lectures Grounded)</span>
+            </div>
+        </div>
+
+        <!-- Jump to Page Controller -->
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <div class="jump-box">
+                <span style="color: #94a3b8;">Jump to Page:</span>
+                <input type="number" id="page-jump-input" class="page-input" min="1" max="1163" value="1" onkeydown="if(event.key==='Enter') jumpToPage(this.value)">
+                <span style="color: #94a3b8;">/ 1,163</span>
+                <button type="button" class="action-btn-sm" style="background:#2563eb; color:#fff;" onclick="jumpToPage(document.getElementById('page-jump-input').value)">Go</button>
+            </div>
+
+            <a href="/view.html?week=all" class="nav-link-btn" style="background: rgba(255,255,255,0.1); color: #fff;">
+                <span>📖 Open Question Bank</span>
+            </a>
+
+            <a href="/MIS_Week_1_merged.pdf" download="MIS_Week_1_merged.pdf" class="nav-link-btn btn-mock-top">
+                <span>⬇ Download PDF (9.8 MB)</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- PDF Embed Container -->
+    <main class="pdf-frame-wrapper">
+        <iframe id="pdf-viewer-frame" class="pdf-frame" src="/MIS_Week_1_merged.pdf#page=1&view=FitH"></iframe>
+    </main>
+
+    <script>
+        function getParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        function jumpToPage(pageNum) {
+            let p = parseInt(pageNum, 10);
+            if (isNaN(p) || p < 1) p = 1;
+            if (p > 1163) p = 1163;
+            
+            document.getElementById('page-jump-input').value = p;
+            const frame = document.getElementById('pdf-viewer-frame');
+            frame.src = `/MIS_Week_1_merged.pdf#page=${p}&view=FitH`;
+            history.replaceState(null, null, `?page=${p}`);
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const initialPage = getParam('page') || window.location.hash.replace('#page=', '') || '1';
+            jumpToPage(initialPage);
+        });
+    </script>
+</body>
+</html>

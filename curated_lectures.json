@@ -1,0 +1,1117 @@
+[
+  {
+    "index": 1,
+    "start_page": 1,
+    "end_page": 17,
+    "page_count": 17,
+    "week_num": 1,
+    "week_title": "Introduction to MIS",
+    "lecture_num": 1,
+    "lecture_title": "Introduction –Part 1 of 2",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 01: Introduction to MIS",
+      "Lecture 01 : Introduction –Part 1 of 2",
+      "1"
+    ]
+  },
+  {
+    "index": 2,
+    "start_page": 18,
+    "end_page": 37,
+    "page_count": 20,
+    "week_num": 1,
+    "week_title": "Introduction to MIS",
+    "lecture_num": 2,
+    "lecture_title": "Introduction –Part 2 of 2",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 01: Introduction to MIS",
+      "Lecture 02 : Introduction –Part 2 of 2",
+      "1"
+    ]
+  },
+  {
+    "index": 3,
+    "start_page": 38,
+    "end_page": 55,
+    "page_count": 18,
+    "week_num": 1,
+    "week_title": "Introduction to MIS",
+    "lecture_num": 3,
+    "lecture_title": "Dimensions of Information System",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 01: Introduction to MIS",
+      "Lecture 03 : Dimensions of Information System",
+      "1"
+    ]
+  },
+  {
+    "index": 4,
+    "start_page": 56,
+    "end_page": 79,
+    "page_count": 24,
+    "week_num": 1,
+    "week_title": "Introduction to MIS",
+    "lecture_num": 4,
+    "lecture_title": "Information Management in  the Digital World",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 01: Introduction to MIS",
+      "Lecture 04 : Information Management in  the Digital World",
+      "1"
+    ]
+  },
+  {
+    "index": 5,
+    "start_page": 80,
+    "end_page": 90,
+    "page_count": 11,
+    "week_num": 1,
+    "week_title": "Introduction to MIS",
+    "lecture_num": 5,
+    "lecture_title": "Class Discussions and Conclusion",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 01: Introduction to MIS",
+      "Lecture 05 : Class Discussions and Conclusion"
+    ]
+  },
+  {
+    "index": 6,
+    "start_page": 91,
+    "end_page": 106,
+    "page_count": 16,
+    "week_num": 2,
+    "week_title": "Foundations of Business Analytics",
+    "lecture_num": 1,
+    "lecture_title": "Databases & Information Management",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 02: Foundations of Business Analytics",
+      "Lecture 01 : Databases & Information Management"
+    ]
+  },
+  {
+    "index": 7,
+    "start_page": 107,
+    "end_page": 124,
+    "page_count": 18,
+    "week_num": 2,
+    "week_title": "Foundations of Business Analytics",
+    "lecture_num": null,
+    "lecture_title": "Data Warehouses & Business Intelligence",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 02: Foundations of Business Analytics",
+      "Data Warehouses & Business Intelligence"
+    ]
+  },
+  {
+    "index": 8,
+    "start_page": 125,
+    "end_page": 142,
+    "page_count": 18,
+    "week_num": 2,
+    "week_title": "Foundations of Business Analytics",
+    "lecture_num": null,
+    "lecture_title": "Introduction to Data Mining",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 02: Foundations of Business Analytics",
+      "Introduction to Data Mining"
+    ]
+  },
+  {
+    "index": 9,
+    "start_page": 143,
+    "end_page": 160,
+    "page_count": 18,
+    "week_num": 2,
+    "week_title": "Foundations of Business Analytics",
+    "lecture_num": null,
+    "lecture_title": "Data Analytics Tools and Techniques",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 02: Foundations of Business Analytics",
+      "Data Analytics Tools and Techniques",
+      "1"
+    ]
+  },
+  {
+    "index": 10,
+    "start_page": 161,
+    "end_page": 175,
+    "page_count": 15,
+    "week_num": 3,
+    "week_title": "ERP",
+    "lecture_num": 1,
+    "lecture_title": "What is ERP ?",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 03: ERP",
+      "Lecture 01 : What is ERP ?"
+    ]
+  },
+  {
+    "index": 11,
+    "start_page": 176,
+    "end_page": 191,
+    "page_count": 16,
+    "week_num": 3,
+    "week_title": "ERP – Evolution and Benefits",
+    "lecture_num": 2,
+    "lecture_title": "Part 2 of 5",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 03: ERP – Evolution and Benefits",
+      "Lecture 02 : Part 2 of 5",
+      "1"
+    ]
+  },
+  {
+    "index": 12,
+    "start_page": 192,
+    "end_page": 203,
+    "page_count": 12,
+    "week_num": 3,
+    "week_title": "ERP",
+    "lecture_num": 3,
+    "lecture_title": "Advantages of ERP",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 03: ERP",
+      "Lecture 03 : Advantages of ERP",
+      "1"
+    ]
+  },
+  {
+    "index": 13,
+    "start_page": 204,
+    "end_page": 220,
+    "page_count": 17,
+    "week_num": 3,
+    "week_title": "ERP",
+    "lecture_num": 4,
+    "lecture_title": "Risks and Challenges of ERP Projects",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 03: ERP",
+      "Lecture 04 : Risks and Challenges of ERP Projects"
+    ]
+  },
+  {
+    "index": 14,
+    "start_page": 221,
+    "end_page": 225,
+    "page_count": 5,
+    "week_num": 3,
+    "week_title": "ERP",
+    "lecture_num": 5,
+    "lecture_title": "Class Discussion and Conclusion",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 03: ERP",
+      "Lecture 05 : Class Discussion and Conclusion"
+    ]
+  },
+  {
+    "index": 15,
+    "start_page": 226,
+    "end_page": 247,
+    "page_count": 22,
+    "week_num": 4,
+    "week_title": "Customer Relationship Management",
+    "lecture_num": 1,
+    "lecture_title": "1",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 04: Customer Relationship Management",
+      "Lecture 01 :",
+      "1"
+    ]
+  },
+  {
+    "index": 16,
+    "start_page": 248,
+    "end_page": 265,
+    "page_count": 18,
+    "week_num": 4,
+    "week_title": "Supply Chain Management",
+    "lecture_num": 2,
+    "lecture_title": "SCM – Part 1",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 04: Supply Chain Management",
+      "Lecture 02 : SCM – Part 1"
+    ]
+  },
+  {
+    "index": 17,
+    "start_page": 266,
+    "end_page": 282,
+    "page_count": 17,
+    "week_num": 4,
+    "week_title": "Supply Chain Management",
+    "lecture_num": 3,
+    "lecture_title": "SCM –Part 2",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 04: Supply Chain Management",
+      "Lecture 03 : SCM –Part 2"
+    ]
+  },
+  {
+    "index": 18,
+    "start_page": 283,
+    "end_page": 301,
+    "page_count": 19,
+    "week_num": 4,
+    "week_title": "Supplier Relationship Management",
+    "lecture_num": 4,
+    "lecture_title": "1",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 04: Supplier Relationship Management",
+      "Lecture 04:",
+      "1"
+    ]
+  },
+  {
+    "index": 19,
+    "start_page": 302,
+    "end_page": 319,
+    "page_count": 18,
+    "week_num": 4,
+    "week_title": "Product Lifecycle Maintenace",
+    "lecture_num": 5,
+    "lecture_title": "",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 04: Product Lifecycle Maintenace",
+      "Lecture 05 :"
+    ]
+  },
+  {
+    "index": 20,
+    "start_page": 320,
+    "end_page": 346,
+    "page_count": 27,
+    "week_num": 5,
+    "week_title": "Module 1",
+    "lecture_num": null,
+    "lecture_title": "Information Systems for Manufacturing Management",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 5: Module 1",
+      "Information Systems for Manufacturing Management"
+    ]
+  },
+  {
+    "index": 21,
+    "start_page": 347,
+    "end_page": 368,
+    "page_count": 22,
+    "week_num": 5,
+    "week_title": "Module 2",
+    "lecture_num": null,
+    "lecture_title": "Information Systems for Manufacturing Management (Continued)",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 5: Module 2",
+      "Information Systems for Manufacturing Management (Continued)"
+    ]
+  },
+  {
+    "index": 22,
+    "start_page": 369,
+    "end_page": 395,
+    "page_count": 27,
+    "week_num": 5,
+    "week_title": "Module 3",
+    "lecture_num": null,
+    "lecture_title": "Information Systems for Materials Management",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 5: Module 3",
+      "Information Systems for Materials Management"
+    ]
+  },
+  {
+    "index": 23,
+    "start_page": 396,
+    "end_page": 419,
+    "page_count": 24,
+    "week_num": 5,
+    "week_title": "Module 4",
+    "lecture_num": null,
+    "lecture_title": "Information Systems for Quality Management",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 5: Module 4",
+      "Information Systems for Quality Management"
+    ]
+  },
+  {
+    "index": 24,
+    "start_page": 420,
+    "end_page": 446,
+    "page_count": 27,
+    "week_num": 5,
+    "week_title": "Module 5",
+    "lecture_num": null,
+    "lecture_title": "Information Systems for Marketing",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 5: Module 5",
+      "Information Systems for Marketing"
+    ]
+  },
+  {
+    "index": 25,
+    "start_page": 447,
+    "end_page": 473,
+    "page_count": 27,
+    "week_num": 6,
+    "week_title": "Module 1",
+    "lecture_num": null,
+    "lecture_title": "Information Systems for Marketing (Continued)",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 6: Module 1",
+      "Information Systems for Marketing (Continued)"
+    ]
+  },
+  {
+    "index": 26,
+    "start_page": 474,
+    "end_page": 496,
+    "page_count": 23,
+    "week_num": 6,
+    "week_title": "Module 2:",
+    "lecture_num": null,
+    "lecture_title": "Information System for Sales & Distribution",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 6: Module 2:",
+      "Information System for Sales & Distribution"
+    ]
+  },
+  {
+    "index": 27,
+    "start_page": 497,
+    "end_page": 525,
+    "page_count": 29,
+    "week_num": 6,
+    "week_title": "Module 3",
+    "lecture_num": null,
+    "lecture_title": "Information Systems for Finance and Accounting",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 6: Module 3",
+      "Information Systems for Finance and Accounting"
+    ]
+  },
+  {
+    "index": 28,
+    "start_page": 526,
+    "end_page": 550,
+    "page_count": 25,
+    "week_num": 6,
+    "week_title": "Module 4",
+    "lecture_num": null,
+    "lecture_title": "Information Systems for Human Resource Management",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 6: Module 4",
+      "Information Systems for Human Resource Management"
+    ]
+  },
+  {
+    "index": 29,
+    "start_page": 551,
+    "end_page": 575,
+    "page_count": 25,
+    "week_num": 6,
+    "week_title": "Module 5",
+    "lecture_num": null,
+    "lecture_title": "Information Systems for Human Resource Management (Continued)",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 6: Module 5",
+      "Information Systems for Human Resource Management (Continued)"
+    ]
+  },
+  {
+    "index": 30,
+    "start_page": 576,
+    "end_page": 618,
+    "page_count": 43,
+    "week_num": 7,
+    "week_title": "Module 1",
+    "lecture_num": null,
+    "lecture_title": "Information Systems (IS) Strategy",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 7: Module 1",
+      "Information Systems (IS) Strategy"
+    ]
+  },
+  {
+    "index": 31,
+    "start_page": 619,
+    "end_page": 637,
+    "page_count": 19,
+    "week_num": 7,
+    "week_title": "Module 2",
+    "lecture_num": null,
+    "lecture_title": "Aligning IT With Business Objectives",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 7: Module 2",
+      "Aligning IT With Business Objectives"
+    ]
+  },
+  {
+    "index": 32,
+    "start_page": 638,
+    "end_page": 667,
+    "page_count": 30,
+    "week_num": 7,
+    "week_title": "Module 3",
+    "lecture_num": null,
+    "lecture_title": "Balanced Score Card",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 7: Module 3",
+      "Balanced Score Card"
+    ]
+  },
+  {
+    "index": 33,
+    "start_page": 668,
+    "end_page": 689,
+    "page_count": 22,
+    "week_num": 7,
+    "week_title": "Module 4",
+    "lecture_num": null,
+    "lecture_title": "Data Centers, Virtualization and Cloud Computing",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 7: Module 4",
+      "Data Centers, Virtualization and Cloud Computing"
+    ]
+  },
+  {
+    "index": 34,
+    "start_page": 690,
+    "end_page": 717,
+    "page_count": 28,
+    "week_num": 7,
+    "week_title": "Module 5",
+    "lecture_num": null,
+    "lecture_title": "Selection of Cloud Vendor",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 7: Module 5",
+      "Selection of Cloud Vendor"
+    ]
+  },
+  {
+    "index": 35,
+    "start_page": 718,
+    "end_page": 734,
+    "page_count": 17,
+    "week_num": 8,
+    "week_title": "E-commerce : Digital Markets, Digital Goods",
+    "lecture_num": null,
+    "lecture_title": "Introduction to E-commerce",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 08: E-commerce : Digital Markets, Digital Goods",
+      "Introduction to E-commerce",
+      "1",
+      "NPTEL"
+    ]
+  },
+  {
+    "index": 36,
+    "start_page": 735,
+    "end_page": 744,
+    "page_count": 10,
+    "week_num": 8,
+    "week_title": "E-commerce : Digital Markets, Digital Goods",
+    "lecture_num": null,
+    "lecture_title": "B2C Business Models",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 08: E-commerce : Digital Markets, Digital Goods",
+      "B2C Business Models",
+      "1",
+      "NPTEL"
+    ]
+  },
+  {
+    "index": 37,
+    "start_page": 745,
+    "end_page": 758,
+    "page_count": 14,
+    "week_num": 8,
+    "week_title": "E-commerce : Digital Markets, Digital Goods",
+    "lecture_num": null,
+    "lecture_title": "B2B Business Models",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 08: E-commerce : Digital Markets, Digital Goods",
+      "B2B Business Models",
+      "1",
+      "NPTEL"
+    ]
+  },
+  {
+    "index": 38,
+    "start_page": 759,
+    "end_page": 769,
+    "page_count": 11,
+    "week_num": 8,
+    "week_title": "E-commerce : Digital Markets, Digital Goods",
+    "lecture_num": null,
+    "lecture_title": "Unique e-commerce business models",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 08: E-commerce : Digital Markets, Digital Goods",
+      "Unique e-commerce business models",
+      "1",
+      "NPTEL"
+    ]
+  },
+  {
+    "index": 39,
+    "start_page": 770,
+    "end_page": 783,
+    "page_count": 14,
+    "week_num": 8,
+    "week_title": "E-commerce : Digital Markets, Digital Goods",
+    "lecture_num": null,
+    "lecture_title": "Social Commerce & M-commerce",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 08: E-commerce : Digital Markets, Digital Goods",
+      "Social Commerce & M-commerce",
+      "1",
+      "NPTEL"
+    ]
+  },
+  {
+    "index": 40,
+    "start_page": 784,
+    "end_page": 797,
+    "page_count": 14,
+    "week_num": 9,
+    "week_title": "Emerging Technologies",
+    "lecture_num": null,
+    "lecture_title": "Cloud Computing Part - I",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 09: Emerging Technologies",
+      "Cloud Computing Part - I",
+      "1"
+    ]
+  },
+  {
+    "index": 41,
+    "start_page": 798,
+    "end_page": 817,
+    "page_count": 20,
+    "week_num": 9,
+    "week_title": "Emerging Technologies",
+    "lecture_num": null,
+    "lecture_title": "Cloud Computing –Part II",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 09: Emerging Technologies",
+      "Cloud Computing –Part II",
+      "1"
+    ]
+  },
+  {
+    "index": 42,
+    "start_page": 818,
+    "end_page": 830,
+    "page_count": 13,
+    "week_num": 9,
+    "week_title": "Emerging Technologies",
+    "lecture_num": null,
+    "lecture_title": "Internet of Things Part - I",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 09: Emerging Technologies",
+      "Internet of Things Part - I",
+      "1"
+    ]
+  },
+  {
+    "index": 43,
+    "start_page": 831,
+    "end_page": 843,
+    "page_count": 13,
+    "week_num": 9,
+    "week_title": "Emerging Technologies",
+    "lecture_num": null,
+    "lecture_title": "Internet of Things Part - II",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 09: Emerging Technologies",
+      "Internet of Things Part - II",
+      "1"
+    ]
+  },
+  {
+    "index": 44,
+    "start_page": 844,
+    "end_page": 855,
+    "page_count": 12,
+    "week_num": 9,
+    "week_title": "Emerging Technologies",
+    "lecture_num": null,
+    "lecture_title": "Internet of Things Part - III",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 09: Emerging Technologies",
+      "Internet of Things Part - III",
+      "1"
+    ]
+  },
+  {
+    "index": 45,
+    "start_page": 856,
+    "end_page": 870,
+    "page_count": 15,
+    "week_num": 9,
+    "week_title": "Emerging Technologies",
+    "lecture_num": null,
+    "lecture_title": "Big Data and other Emerging Technologies",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 09: Emerging Technologies",
+      "Big Data and other Emerging Technologies",
+      "1"
+    ]
+  },
+  {
+    "index": 46,
+    "start_page": 871,
+    "end_page": 903,
+    "page_count": 33,
+    "week_num": 10,
+    "week_title": "Module 1",
+    "lecture_num": null,
+    "lecture_title": "Knowledge Management Systems (KMS)",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 10: Module 1",
+      "Knowledge Management Systems (KMS)"
+    ]
+  },
+  {
+    "index": 47,
+    "start_page": 904,
+    "end_page": 926,
+    "page_count": 23,
+    "week_num": 10,
+    "week_title": "Module 2",
+    "lecture_num": null,
+    "lecture_title": "Decision Support Systems",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Decision Support Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 10: Module 2",
+      "Decision Support Systems"
+    ]
+  },
+  {
+    "index": 48,
+    "start_page": 927,
+    "end_page": 949,
+    "page_count": 23,
+    "week_num": 10,
+    "week_title": "Module 3",
+    "lecture_num": null,
+    "lecture_title": "Executive Support Systems",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 10: Module 3",
+      "Executive Support Systems"
+    ]
+  },
+  {
+    "index": 49,
+    "start_page": 950,
+    "end_page": 973,
+    "page_count": 24,
+    "week_num": 10,
+    "week_title": "Module 4",
+    "lecture_num": null,
+    "lecture_title": "Expert Systems",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 10: Module 4",
+      "Expert Systems"
+    ]
+  },
+  {
+    "index": 50,
+    "start_page": 974,
+    "end_page": 1002,
+    "page_count": 29,
+    "week_num": 10,
+    "week_title": "Module 5",
+    "lecture_num": null,
+    "lecture_title": "Learning Management Systems (LMS)",
+    "instructor": "Prof. Kunal Kanti Ghosh (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Kunal Kanti Ghosh",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 10: Module 5",
+      "Learning Management Systems (LMS)"
+    ]
+  },
+  {
+    "index": 51,
+    "start_page": 1003,
+    "end_page": 1016,
+    "page_count": 14,
+    "week_num": 11,
+    "week_title": "Ethical, Social and Security issues in MIS",
+    "lecture_num": null,
+    "lecture_title": "Ethical and Social Issues in MIS - I",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 11: Ethical, Social and Security issues in MIS",
+      "Ethical and Social Issues in MIS - I",
+      "1",
+      "NPTEL"
+    ]
+  },
+  {
+    "index": 52,
+    "start_page": 1017,
+    "end_page": 1031,
+    "page_count": 15,
+    "week_num": 11,
+    "week_title": "Ethical, Social and Security issues in MIS",
+    "lecture_num": null,
+    "lecture_title": "Ethical and Social Issues in MIS – II",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 11: Ethical, Social and Security issues in MIS",
+      "Ethical and Social Issues in MIS – II",
+      "1",
+      "NPTEL"
+    ]
+  },
+  {
+    "index": 53,
+    "start_page": 1032,
+    "end_page": 1046,
+    "page_count": 15,
+    "week_num": 11,
+    "week_title": "Ethical, social and security issues in MIS",
+    "lecture_num": null,
+    "lecture_title": "Security issues in MIS",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 11: Ethical, social and security issues in MIS",
+      "Security issues in MIS",
+      "1",
+      "NPTEL"
+    ]
+  },
+  {
+    "index": 54,
+    "start_page": 1047,
+    "end_page": 1064,
+    "page_count": 18,
+    "week_num": 11,
+    "week_title": "Ethical, Social and Security issues in MIS",
+    "lecture_num": null,
+    "lecture_title": "Security issues in MIS - II",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 11: Ethical, Social and Security issues in MIS",
+      "Security issues in MIS - II",
+      "1",
+      "NPTEL"
+    ]
+  },
+  {
+    "index": 55,
+    "start_page": 1065,
+    "end_page": 1080,
+    "page_count": 16,
+    "week_num": 11,
+    "week_title": "Ethical, Social and Security issues in MIS",
+    "lecture_num": null,
+    "lecture_title": "Security issues in MIS - III",
+    "instructor": "Prof. Saini Das (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information System",
+      "Saini Das",
+      "Vinod Gupta School of Management, IIT Kharagpur",
+      "Module 11: Ethical, Social and Security issues in MIS",
+      "Security issues in MIS - III",
+      "1",
+      "NPTEL"
+    ]
+  },
+  {
+    "index": 56,
+    "start_page": 1081,
+    "end_page": 1096,
+    "page_count": 16,
+    "week_num": 12,
+    "week_title": "Managing Global Organizations and Global Projects",
+    "lecture_num": 1,
+    "lecture_title": "Managing Global Organization - Globalization (Part1)",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 12: Managing Global Organizations and Global Projects",
+      "Lecture 01 : Managing Global Organization - Globalization (Part1)"
+    ]
+  },
+  {
+    "index": 57,
+    "start_page": 1097,
+    "end_page": 1111,
+    "page_count": 15,
+    "week_num": 12,
+    "week_title": "Managing Global Organizations and Global Projects",
+    "lecture_num": 2,
+    "lecture_title": "Managing Global Organizations –Part 2",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 12: Managing Global Organizations and Global Projects",
+      "Lecture 02 : Managing Global Organizations –Part 2"
+    ]
+  },
+  {
+    "index": 58,
+    "start_page": 1112,
+    "end_page": 1127,
+    "page_count": 16,
+    "week_num": 12,
+    "week_title": "Managing Global Organizations and Global Projects",
+    "lecture_num": 3,
+    "lecture_title": "Shared Services",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 12: Managing Global Organizations and Global Projects",
+      "Lecture 03 : Shared Services"
+    ]
+  },
+  {
+    "index": 59,
+    "start_page": 1128,
+    "end_page": 1143,
+    "page_count": 16,
+    "week_num": 12,
+    "week_title": "Managing Global Organizations and Global Projects",
+    "lecture_num": 4,
+    "lecture_title": "Offshoring / Transitioning Global IT systems",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 12: Managing Global Organizations and Global Projects",
+      "Lecture 04 : Offshoring / Transitioning Global IT systems"
+    ]
+  },
+  {
+    "index": 60,
+    "start_page": 1144,
+    "end_page": 1163,
+    "page_count": 20,
+    "week_num": 12,
+    "week_title": "Managing Global Organizations and Global Projects",
+    "lecture_num": 5,
+    "lecture_title": "Globalization of Corporates in a Flat World",
+    "instructor": "Prof. Surojit Mookherjee (VGSoM, IIT Kharagpur)",
+    "raw_lines": [
+      "Management Information Systems",
+      "Prof. Surojit Mookherjee",
+      "VGSoM, IIT KHARAGPUR",
+      "Week 12: Managing Global Organizations and Global Projects",
+      "Lecture 05 : Globalization of Corporates in a Flat World"
+    ]
+  }
+]

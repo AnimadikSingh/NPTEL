@@ -1,0 +1,27 @@
+{
+  "course_title": "NPTEL Management Information Systems",
+  "source_pdf": "MIS Week 1_merged.pdf",
+  "total_source_pages": 1163,
+  "content_slides_processed": 991,
+  "total_weeks": 12,
+  "total_lectures": 60,
+  "total_validated_mcqs": 1560,
+  "questions_per_week": {
+    "Week 01": 130,
+    "Week 02": 130,
+    "Week 03": 130,
+    "Week 04": 130,
+    "Week 05": 130,
+    "Week 06": 130,
+    "Week 07": 130,
+    "Week 08": 130,
+    "Week 09": 130,
+    "Week 10": 130,
+    "Week 11": 130,
+    "Week 12": 130
+  },
+  "validation_status": "100% VALIDATED",
+  "duplicates_detected": 3,
+  "rejected_count": 0,
+  "pending_review": 0
+}

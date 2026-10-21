@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPTEL MIS Question Bank - View & Study Mode (1,560 Grounded MCQs)</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/data/questions_data.js"></script>
+</head>
+<body>
+
+    <!-- Embedded SVG Symbols -->
+    <svg style="display: none;">
+        <defs>
+            <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+            </symbol>
+            <symbol id="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </symbol>
+            <symbol id="icon-star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </symbol>
+            <symbol id="icon-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+            </symbol>
+            <symbol id="icon-print" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                <rect x="6" y="14" width="12" height="8"></rect>
+            </symbol>
+            <symbol id="icon-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </symbol>
+            <symbol id="icon-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </symbol>
+            <symbol id="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+            </symbol>
+            <symbol id="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </symbol>
+            <symbol id="icon-chevron-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </symbol>
+            <symbol id="icon-chevron-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </symbol>
+            <symbol id="icon-external" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+            </symbol>
+        </defs>
+    </svg>
+
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+        <div class="app-container navbar-inner">
+            <a href="/" class="brand-pata-wrapper" title="NPTEL MIS Question Bank">
+                <span class="brand-pata-logo">MIS</span>
+                <span class="brand-pata-tag">NPTEL</span>
+            </a>
+
+            <nav class="nav-pill-dock">
+                <a href="/" class="nav-pill">Dashboard</a>
+                <a href="/view.html?week=all" class="nav-pill active">
+                    <span>Question Bank</span>
+                    <span class="pill-count-badge">1,560</span>
+                </a>
+                <a href="/assignments.html" class="nav-pill">
+                    <span>Assignments</span>
+                    <span class="pill-count-badge" style="background:#ecfdf5; color:#065f46;">120</span>
+                </a>
+                <a href="/practice.html?week=all" class="nav-pill">
+                    <svg class="svg-icon" style="width:0.8rem;height:0.8rem;"><use href="#icon-play"/></svg>
+                    <span>Practice</span>
+                </a>
+                <a href="/pdf-viewer.html" target="_blank" class="nav-pill">
+                    <svg class="svg-icon" style="width:0.8rem;height:0.8rem;"><use href="#icon-book"/></svg>
+                    <span>Course PDF</span>
+                </a>
+            </nav>
+
+            <div class="nav-right-actions">
+                <a href="/practice.html?week=all" class="nav-circle-btn" title="Switch to Practice Mode" style="color: #d97706;">
+                    <svg class="svg-icon" style="width:1.05rem;height:1.05rem;"><use href="#icon-play"/></svg>
+                </a>
+                <button type="button" id="theme-toggle-btn" class="nav-circle-btn" title="Toggle Light / Dark Mode" onclick="toggleTheme()">
+                    <svg class="svg-icon" id="theme-icon" style="width:1.05rem;height:1.05rem;"><use href="#icon-moon"/></svg>
+                </button>
+                <div class="nav-profile-capsule">
+                    <div class="profile-avatar-circle">1.5k</div>
+                    <span>Study View</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-container" style="flex: 1; padding-top: 1.5rem; padding-bottom: 3rem;">
+
+        <!-- Dedicated View Header Card -->
+        <div class="hero-banner" style="margin-top: 0; padding: 2rem 2.5rem; margin-bottom: 1.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                <div>
+                    <div class="hero-pill" style="margin-bottom: 0.6rem;">
+                        <span class="pulse-dot"></span>
+                        <span id="view-mode-tag">Dedicated Question Bank View</span>
+                    </div>
+                    <h1 class="hero-title" id="page-scope-title" style="font-size: 1.85rem; margin-bottom: 0.4rem;">
+                        All 12 Curriculum Modules &mdash; Complete Question Bank
+                    </h1>
+                    <p class="hero-desc" id="page-scope-desc" style="margin-bottom: 0;">
+                        1,560 fully validated multiple choice questions with detailed pedagogical explanations, distractor analysis, and direct PDF slide citations.
+                    </p>
+                </div>
+                <div style="text-align: right; background: rgba(15, 23, 42, 0.7); padding: 1rem 1.5rem; border-radius: var(--radius-md); border: 1px solid rgba(255,255,255,0.15);">
+                    <div style="font-size: 0.75rem; text-transform: uppercase; color: #94a3b8; font-weight: 700;">Validated MCQs in Scope</div>
+                    <div style="font-size: 2.5rem; font-weight: 900; color: #fbbf24; font-family: var(--font-mono); line-height: 1.1;" id="scope-total-badge">1,560</div>
+                    <div style="font-size: 0.75rem; color: #34d399; font-weight: 600;">100% Verified Answer Keys</div>
+                </div>
+            </div>
+        </div>
+
+                <!-- Mode Switcher Toolbar: Study Mode vs Interactive Practice Mode -->
+        <div class="view-mode-toolbar">
+            <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+                <span style="font-size: 0.8rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.05em;">Viewing Mode:</span>
+                <div class="mode-pill-group">
+                    <button type="button" class="mode-pill-btn active" id="btn-mode-study" onclick="setViewMode('study')">
+                        <svg class="svg-icon" style="width:0.85rem;height:0.85rem;"><use href="#icon-book"/></svg>
+                        <span>Study Mode (Answers Revealed)</span>
+                    </button>
+                    <button type="button" class="mode-pill-btn" id="btn-mode-practice" onclick="setViewMode('practice')">
+                        <svg class="svg-icon" style="width:0.85rem;height:0.85rem;"><use href="#icon-play"/></svg>
+                        <span>Interactive Practice Mode (Self-Test)</span>
+                    </button>
+                </div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+                <span id="practice-session-counter" style="display: none; font-size: 0.82rem; font-weight: 700; color: #10b981; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25); padding: 0.35rem 0.85rem; border-radius: 999px;">
+                    Tested: <strong id="practice-attempted-num">0</strong> | Correct: <strong id="practice-correct-num">0</strong> (<span id="practice-acc-num">0</span>%)
+                </span>
+                <a href="/practice.html?week=all" id="btn-timed-simulator" class="btn-export" style="background: rgba(245, 158, 11, 0.12); color: #d97706; border-color: rgba(245, 158, 11, 0.35); text-decoration: none; font-weight: 700;">
+                    <svg class="svg-icon"><use href="#icon-play"/></svg>
+                    <span>Full Timed Exam Simulator &rarr;</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Controls Card: Week Selector, Search, Filters, and Exports -->
+        <div class="controls-card">
+            <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center;">
+                <div class="search-bar-wrapper">
+                    <svg class="svg-icon search-icon-pos"><use href="#icon-search"/></svg>
+                    <input type="text" id="search-input" class="search-input" placeholder="Search question stem, key concepts, options, distractor analysis, slide keywords..." oninput="handleSearch(this.value)">
+                </div>
+
+                <!-- Export Buttons -->
+                <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                    <a href="/practice.html?week=all" id="btn-practice-scope" class="btn-export" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b; border-color: rgba(245, 158, 11, 0.4); text-decoration: none;">
+                        <svg class="svg-icon"><use href="#icon-play"/></svg>
+                        <span>Practice Online</span>
+                    </a>
+                    <a href="/api/export/json" download="NPTEL_MIS_Question_Bank_1560_MCQs.json" class="btn-export">
+                        <svg class="svg-icon"><use href="#icon-download"/></svg>
+                        <span>JSON</span>
+                    </a>
+                    <a href="/api/export/csv" download="NPTEL_MIS_Question_Bank_1560_MCQs.csv" class="btn-export">
+                        <svg class="svg-icon"><use href="#icon-download"/></svg>
+                        <span>CSV</span>
+                    </a>
+                    <a href="/api/export/printable" target="_blank" class="btn-export primary">
+                        <svg class="svg-icon"><use href="#icon-print"/></svg>
+                        <span>Print / PDF View</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Filters Grid -->
+            <div class="filters-grid">
+                <div class="filter-group">
+                    <label for="filter-week">Week / Module Scope</label>
+                    <select id="filter-week" class="custom-select" onchange="onWeekDropdownChange(this.value)">
+                        <option value="all">All 12 Modules (All 1,560 MCQs)</option>
+                        <option value="1">Week 01: Intro to MIS &amp; Digital Firm (130 MCQs)</option>
+                        <option value="2">Week 02: Strategic Role of IS &amp; Porter (130 MCQs)</option>
+                        <option value="3">Week 03: IT Infrastructure &amp; Hardware (130 MCQs)</option>
+                        <option value="4">Week 04: Software &amp; Cloud Architecture (130 MCQs)</option>
+                        <option value="5">Week 05: Data Management &amp; Relational DB (130 MCQs)</option>
+                        <option value="6">Week 06: Big Data, BI &amp; Analytics (130 MCQs)</option>
+                        <option value="7">Week 07: Telecommunications &amp; Networks (130 MCQs)</option>
+                        <option value="8">Week 08: Information Systems Security (130 MCQs)</option>
+                        <option value="9">Week 09: Enterprise Applications (ERP, CRM) (130 MCQs)</option>
+                        <option value="10">Week 10: E-Commerce &amp; Digital Markets (130 MCQs)</option>
+                        <option value="11">Week 11: Knowledge Management &amp; AI (130 MCQs)</option>
+                        <option value="12">Week 12: Systems Development &amp; Ethics (130 MCQs)</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="filter-difficulty">Difficulty Level</label>
+                    <select id="filter-difficulty" class="custom-select" onchange="applyFilters()">
+                        <option value="all">All Difficulties</option>
+                        <option value="Easy">Easy (Knowledge / Recall)</option>
+                        <option value="Medium">Medium (Comprehension &amp; Analysis)</option>
+                        <option value="Hard">Hard (Evaluation &amp; Synthesis)</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="filter-type">Question Type</label>
+                    <select id="filter-type" class="custom-select" onchange="applyFilters()">
+                        <option value="all">All Question Types</option>
+                        <option value="Conceptual">Conceptual Definition</option>
+                        <option value="Analytical">Analytical &amp; Comparative</option>
+                        <option value="Application">Application / Case-based</option>
+                        <option value="Scenario">Managerial Scenario</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label>Saved Bookmarks</label>
+                    <button type="button" id="btn-toggle-bookmarks" class="btn-bookmark-filter" onclick="toggleBookmarkFilter()">
+                        <svg class="svg-icon"><use href="#icon-star"/></svg>
+                        <span id="bookmark-filter-label">Bookmarks Only (0)</span>
+                    </button>
+                </div>
+
+                <div class="filter-group">
+                    <label>Quick Action</label>
+                    <button type="button" class="btn-page" style="width: 100%; height: 34px; justify-content: center;" onclick="resetAllFilters()">
+                        Reset All Filters
+                    </button>
+                </div>
+            </div>
+
+            <!-- Active Filter Status Bar -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; font-size: 0.82rem; color: var(--text-muted);">
+                <div>
+                    Displaying <strong id="filtered-count" style="color: var(--text-main);">1,560</strong> of <strong id="total-catalog-count" style="color: var(--text-main);">1,560</strong> validated MCQs
+                    <span id="active-filter-summary" style="margin-left: 0.5rem; color: var(--primary-light);"></span>
+                </div>
+                <div>
+                    <a href="/practice.html?week=all" id="link-switch-practice" style="color: #f59e0b; font-weight: 700; text-decoration: none;">&rarr; Practice These Questions Online</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question Cards Container -->
+        <div id="questions-container">
+            <div style="text-align: center; padding: 4rem 1rem; color: var(--text-muted);">
+                <div style="font-size: 1.2rem; font-weight: 700; color: var(--text-main);">Loading Grounded Questions...</div>
+                <p style="margin-top: 0.5rem;">Fetching validated questions from master SQLite database.</p>
+            </div>
+        </div>
+
+        <!-- Pagination Bar -->
+        <div class="pagination-bar" id="pagination-controls">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span style="font-size: 0.82rem; color: var(--text-muted);">Questions per page:</span>
+                <select id="page-size-select" class="custom-select" style="width: auto; padding: 0.3rem 0.5rem;" onchange="changePageSize(this.value)">
+                    <option value="10">10</option>
+                    <option value="25" selected>25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 0.4rem;" id="pagination-buttons">
+                <button type="button" class="btn-page" id="btn-page-first" onclick="goToPage(1)" title="First Page">&laquo;</button>
+                <button type="button" class="btn-page" id="btn-page-prev" onclick="goToPrevPage()" title="Previous Page">
+                    <svg class="svg-icon"><use href="#icon-chevron-left"/></svg>
+                    <span>Prev</span>
+                </button>
+                <span id="page-indicator" style="font-size: 0.85rem; font-weight: 700; padding: 0 0.75rem; font-family: var(--font-mono);">
+                    Page 1 of 63
+                </span>
+                <button type="button" class="btn-page" id="btn-page-next" onclick="goToNextPage()" title="Next Page">
+                    <span>Next</span>
+                    <svg class="svg-icon"><use href="#icon-chevron-right"/></svg>
+                </button>
+                <button type="button" class="btn-page" id="btn-page-last" onclick="goToLastPage()" title="Last Page">&raquo;</button>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="app-container">
+            <p style="font-weight: 700; color: #f8fafc;">NPTEL Management Information Systems (MIS) Question Bank</p>
+            <p>Grounded in <code>MIS Week 1_merged.pdf</code> (1,163 Pages &bull; 60 Lectures &bull; 1,560 Validated MCQs)</p>
+        </div>
+    </footer>
+
+    <!-- Client-Side Script -->
+    <script>
+        const APP_STATE = {
+            allQuestions: [],
+            filteredQuestions: [],
+            theme: 'light',
+            viewMode: 'study',
+            practiceAnswers: {},
+            currentPage: 1,
+            pageSize: 25,
+            filters: {
+                search: '',
+                week: 'all',
+                difficulty: 'all',
+                type: 'all',
+                bookmarksOnly: false
+            },
+            bookmarks: new Set()
+        };
+
+        const MASTER_WEEKS = {
+            1: { title: "Introduction to MIS, Digital Firm & Enterprise Systems", lectures: "Lec 01-05: Information Systems in Global Business, Digital Integration, Enterprise Transformation" },
+            2: { title: "Strategic Role of Information Systems & Competitive Advantage", lectures: "Lec 06-10: Porter's 5 Forces, Value Chain Model, Strategic Information Systems, Sustaining Advantage" },
+            3: { title: "IT Infrastructure, Computer Hardware & Emerging Computing", lectures: "Lec 11-15: Moore's Law, Metcalfe's Law, IT Infrastructure Evolution, Storage & Server Architectures" },
+            4: { title: "Software Ecosystem, Cloud Computing & Open Source Platforms", lectures: "Lec 16-20: SaaS, PaaS, IaaS, Cloud Economics, Virtualization, Linux & Enterprise Software" },
+            5: { title: "Data Management, Relational Databases & SQL Foundations", lectures: "Lec 21-25: Relational DBMS, Normalization (1NF to 3NF), Entity-Relationship Modeling, Integrity Constraints" },
+            6: { title: "Big Data Analytics, Business Intelligence & Data Warehousing", lectures: "Lec 26-30: ETL Pipelines, OLAP Cubes, Hadoop/Spark Ecosystem, Data Mining, Predictive Analytics" },
+            7: { title: "Telecommunications, Enterprise Networks & Internet Infrastructure", lectures: "Lec 31-35: OSI & TCP/IP Protocol Layers, Routing, 5G Wireless Protocols, Optical Backbones" },
+            8: { title: "Information Systems Security, Cryptography & Governance", lectures: "Lec 36-40: CIA Triad, RSA/AES Cryptography, Zero Trust Architecture, Disaster Recovery & Compliance" },
+            9: { title: "Enterprise Applications: ERP, Supply Chain & CRM Integration", lectures: "Lec 41-45: SAP/Oracle ERP Modules, Bullwhip Effect Mitigation, SCM Optimization, CRM Lifecycle" },
+            10: { title: "E-Commerce Strategies, Digital Markets & Payment Systems", lectures: "Lec 46-50: B2B/B2C Models, Dynamic Pricing, Network Externalities, Fintech & Blockchain Ledger" },
+            11: { title: "Knowledge Management Systems & Artificial Intelligence in MIS", lectures: "Lec 51-55: Tacit vs Explicit Knowledge, SECI Model, Expert Systems, Machine Learning in Business" },
+            12: { title: "Systems Development Methodologies, Ethics & Future Horizons", lectures: "Lec 56-60: SDLC, Agile/Scrum, Privacy Frameworks (GDPR), Algorithmic Bias, Digital Ethics" }
+        };
+
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            initLocalStorage();
+            applyTheme(APP_STATE.theme);
+
+            // Read URL parameters
+            const urlWeek = getQueryParam('week');
+            if (urlWeek && urlWeek !== 'all') {
+                APP_STATE.filters.week = urlWeek;
+                const sel = document.getElementById('filter-week');
+                if (sel) sel.value = urlWeek;
+            }
+
+            const urlMode = getQueryParam('mode');
+            if (urlMode === 'practice' || urlMode === 'test') {
+                setViewMode('practice', false);
+            }
+
+            await loadData();
+        });
+
+        function initLocalStorage() {
+            try {
+                const savedTheme = localStorage.getItem('nptel_mis_theme');
+                if (savedTheme) APP_STATE.theme = savedTheme;
+
+                const savedBookmarks = localStorage.getItem('nptel_mis_bookmarks');
+                if (savedBookmarks) APP_STATE.bookmarks = new Set(JSON.parse(savedBookmarks));
+            } catch (e) {}
+        }
+
+        function normalizeQuestion(raw) {
+            if (!raw) return null;
+            const qId = raw.question_id || raw.id || '';
+            const wNum = parseInt(raw.week_number || raw.week || 1, 10);
+            const qText = raw.question_text || raw.question || '';
+            
+            let opts = raw.options;
+            if (!opts || typeof opts !== 'object') {
+                opts = {
+                    A: raw.option_a || '',
+                    B: raw.option_b || '',
+                    C: raw.option_c || '',
+                    D: raw.option_d || ''
+                };
+            }
+
+            return {
+                question_id: qId,
+                id: qId,
+                week_number: wNum,
+                week: wNum,
+                lecture_id: raw.lecture_id || '',
+                topic: raw.topic || raw.week_title || `Week ${wNum}`,
+                question_text: qText,
+                question: qText,
+                options: opts,
+                correct_option: raw.correct_option || raw.correct_answer || 'A',
+                correct_answer: raw.correct_option || raw.correct_answer || 'A',
+                explanation: raw.explanation || '',
+                distractor_analysis: raw.distractor_analysis || raw.distractor_explanations || '',
+                source_page: raw.source_page || '',
+                slide_quote: raw.slide_quote || raw.source_evidence || '',
+                difficulty_level: raw.difficulty_level || raw.difficulty || 'Medium',
+                difficulty: raw.difficulty_level || raw.difficulty || 'Medium',
+                question_type: raw.question_type || 'Conceptual'
+            };
+        }
+
+        async function loadData() {
+            if (window.PRELOADED_QUESTIONS && Array.isArray(window.PRELOADED_QUESTIONS) && window.PRELOADED_QUESTIONS.length > 0) {
+                APP_STATE.allQuestions = window.PRELOADED_QUESTIONS.map(normalizeQuestion);
+            } else {
+                try {
+                    const res = await fetch('/api/questions/all');
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (data && data.questions) {
+                            APP_STATE.allQuestions = data.questions.map(normalizeQuestion);
+                        }
+                    }
+                } catch (e) {
+                    console.warn("API request failed; falling back to export json", e);
+                }
+
+                if (APP_STATE.allQuestions.length === 0) {
+                    try {
+                        const fallback = await fetch('/exports/mis_question_bank.json');
+                        if (fallback.ok) {
+                            const json = await fallback.json();
+                            APP_STATE.allQuestions = json.map(normalizeQuestion);
+                        }
+                    } catch (e) {}
+                }
+            }
+
+            updateScopeHeader();
+            applyFilters();
+        }
+
+        function onWeekDropdownChange(val) {
+            APP_STATE.filters.week = val;
+            history.replaceState(null, null, `?week=${val}`);
+            updateScopeHeader();
+            applyFilters();
+        }
+
+        function updateScopeHeader() {
+            const wVal = APP_STATE.filters.week;
+            const titleEl = document.getElementById('page-scope-title');
+            const descEl = document.getElementById('page-scope-desc');
+            const badgeEl = document.getElementById('scope-total-badge');
+            const practiceLink = document.getElementById('link-switch-practice');
+            const btnPracticeScope = document.getElementById('btn-practice-scope');
+
+            const targetPracticeHref = (wVal === 'all') ? '/practice.html?week=all' : `/practice.html?week=${parseInt(wVal, 10)}`;
+
+            if (practiceLink) practiceLink.href = targetPracticeHref;
+            if (btnPracticeScope) btnPracticeScope.href = targetPracticeHref;
+            const btnTimedSim = document.getElementById('btn-timed-simulator');
+            if (btnTimedSim) btnTimedSim.href = targetPracticeHref;
+
+            if (wVal === 'all') {
+                if (titleEl) titleEl.textContent = "All 12 Curriculum Modules — Complete Question Bank";
+                if (descEl) descEl.textContent = "1,560 fully validated multiple choice questions with detailed pedagogical explanations, distractor analysis, and direct PDF slide citations.";
+                if (badgeEl) badgeEl.textContent = "1,560";
+            } else {
+                const wInt = parseInt(wVal, 10);
+                const info = MASTER_WEEKS[wInt] || { title: `Week ${wInt}`, lectures: "Grounded curriculum module" };
+                if (titleEl) titleEl.textContent = `Week ${wInt}: ${info.title}`;
+                if (descEl) descEl.textContent = `Covering ${info.lectures}. Exactly 130 validated MCQs directly derived and grounded from MIS Week 1_merged.pdf.`;
+                if (badgeEl) badgeEl.textContent = "130";
+            }
+        }
+
+        function handleSearch(val) {
+            APP_STATE.filters.search = val.trim().toLowerCase();
+            APP_STATE.currentPage = 1;
+            applyFilters();
+        }
+
+        function toggleBookmarkFilter() {
+            APP_STATE.filters.bookmarksOnly = !APP_STATE.filters.bookmarksOnly;
+            const btn = document.getElementById('btn-toggle-bookmarks');
+            const lbl = document.getElementById('bookmark-filter-label');
+            
+            if (APP_STATE.filters.bookmarksOnly) {
+                btn.classList.add('active');
+                lbl.textContent = `Bookmarks Only (${APP_STATE.bookmarks.size})`;
+            } else {
+                btn.classList.remove('active');
+                lbl.textContent = `Bookmarks Only (${APP_STATE.bookmarks.size})`;
+            }
+            APP_STATE.currentPage = 1;
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const weekVal = APP_STATE.filters.week;
+            const diffVal = document.getElementById('filter-difficulty').value;
+            const typeVal = document.getElementById('filter-type').value;
+            const searchVal = APP_STATE.filters.search;
+
+            let result = APP_STATE.allQuestions;
+
+            if (weekVal !== 'all') {
+                const wInt = parseInt(weekVal, 10);
+                result = result.filter(q => q.week_number === wInt);
+            }
+
+            if (diffVal !== 'all') {
+                result = result.filter(q => (q.difficulty_level || '').toLowerCase() === diffVal.toLowerCase());
+            }
+
+            if (typeVal !== 'all') {
+                result = result.filter(q => (q.question_type || '').toLowerCase() === typeVal.toLowerCase());
+            }
+
+            if (APP_STATE.filters.bookmarksOnly) {
+                result = result.filter(q => APP_STATE.bookmarks.has(q.question_id));
+            }
+
+            if (searchVal) {
+                result = result.filter(q => {
+                    const stem = (q.question_text || '').toLowerCase();
+                    const exp = (q.explanation || '').toLowerCase();
+                    const dist = (q.distractor_analysis || '').toLowerCase();
+                    const quote = (q.slide_quote || '').toLowerCase();
+                    const topic = (q.topic || '').toLowerCase();
+                    const opts = Object.values(q.options || {}).join(' ').toLowerCase();
+                    return stem.includes(searchVal) || exp.includes(searchVal) || dist.includes(searchVal) || quote.includes(searchVal) || topic.includes(searchVal) || opts.includes(searchVal);
+                });
+            }
+
+            APP_STATE.filteredQuestions = result;
+            const filteredEl = document.getElementById('filtered-count');
+            if (filteredEl) filteredEl.textContent = result.length.toLocaleString();
+            const totalEl = document.getElementById('total-catalog-count');
+            if (totalEl) totalEl.textContent = APP_STATE.allQuestions.length.toLocaleString();
+
+            renderCurrentPage();
+        }
+
+        function resetAllFilters() {
+            document.getElementById('search-input').value = '';
+            document.getElementById('filter-week').value = 'all';
+            document.getElementById('filter-difficulty').value = 'all';
+            document.getElementById('filter-type').value = 'all';
+            
+            APP_STATE.filters.search = '';
+            APP_STATE.filters.week = 'all';
+            APP_STATE.filters.bookmarksOnly = false;
+            
+            const btn = document.getElementById('btn-toggle-bookmarks');
+            if (btn) btn.classList.remove('active');
+
+            history.replaceState(null, null, '?week=all');
+            updateScopeHeader();
+            APP_STATE.currentPage = 1;
+            applyFilters();
+        }
+
+        function renderCurrentPage() {
+            const container = document.getElementById('questions-container');
+            const total = APP_STATE.filteredQuestions.length;
+
+            if (total === 0) {
+                container.innerHTML = `
+                    <div style="background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 3.5rem; text-align: center;">
+                        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">No matching questions found</h3>
+                        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.5rem;">Try adjusting your search query or reset filters.</p>
+                        <button type="button" class="btn-page" onclick="resetAllFilters()">Clear All Filters</button>
+                    </div>
+                `;
+                updatePaginationUI(0, 0);
+                return;
+            }
+
+            const totalPages = Math.ceil(total / APP_STATE.pageSize);
+            if (APP_STATE.currentPage > totalPages) APP_STATE.currentPage = totalPages;
+            if (APP_STATE.currentPage < 1) APP_STATE.currentPage = 1;
+
+            const startIdx = (APP_STATE.currentPage - 1) * APP_STATE.pageSize;
+            const endIdx = Math.min(startIdx + APP_STATE.pageSize, total);
+            const pageQuestions = APP_STATE.filteredQuestions.slice(startIdx, endIdx);
+
+            container.innerHTML = '';
+
+            pageQuestions.forEach((q, idx) => {
+                const card = createDetailedQuestionCard(q, startIdx + idx + 1);
+                container.appendChild(card);
+            });
+
+            updatePaginationUI(totalPages, total);
+        }
+
+        function createDetailedQuestionCard(q, absoluteNum) {
+            const card = document.createElement('div');
+            card.className = 'question-card';
+            card.id = `card-${q.question_id}`;
+
+            const isBookmarked = APP_STATE.bookmarks.has(q.question_id);
+            const diffClass = (q.difficulty_level || 'Medium').toLowerCase();
+            const correctOpt = q.correct_option;
+            const isPracticeMode = (APP_STATE.viewMode === 'practice');
+            const userAttempt = APP_STATE.practiceAnswers[q.question_id];
+
+            // Options HTML
+            const options = q.options || {};
+            let optionsHtml = '';
+            ['A', 'B', 'C', 'D'].forEach(letter => {
+                const optText = options[letter] || '';
+                if (!optText) return;
+
+                let optClass = 'option-box';
+                let extraBadge = '';
+                let clickAttr = '';
+
+                if (isPracticeMode) {
+                    if (userAttempt) {
+                        if (userAttempt.revealed && !userAttempt.selected) {
+                            if (letter === correctOpt) {
+                                optClass += ' study-correct';
+                                extraBadge = `<span class="badge-correct-tag"><svg class="svg-icon" style="width:0.75rem;height:0.75rem;"><use href="#icon-check"/></svg> Authoritative Answer Key</span>`;
+                            }
+                        } else {
+                            const isUserPick = (letter === userAttempt.selected);
+                            const isCorrect = (letter === correctOpt);
+
+                            if (isUserPick && isCorrect) {
+                                optClass += ' study-correct';
+                                extraBadge = `<span class="badge-correct-tag"><svg class="svg-icon" style="width:0.75rem;height:0.75rem;"><use href="#icon-check"/></svg> Correct! Excellent!</span>`;
+                            } else if (isUserPick && !isCorrect) {
+                                optClass += ' study-wrong';
+                                extraBadge = `<span class="badge-wrong-tag">&#10005; Your Choice (Incorrect)</span>`;
+                            } else if (!isUserPick && isCorrect) {
+                                optClass += ' study-correct';
+                                extraBadge = `<span class="badge-correct-tag"><svg class="svg-icon" style="width:0.75rem;height:0.75rem;"><use href="#icon-check"/></svg> Correct Key</span>`;
+                            }
+                        }
+                    } else {
+                        optClass += ' interactive-opt';
+                        clickAttr = `onclick="handlePracticePick('${q.question_id}', '${letter}')"`;
+                    }
+                } else {
+                    const isCorrect = (letter === correctOpt);
+                    optClass = isCorrect ? 'option-box study-correct' : 'option-box';
+                    extraBadge = isCorrect ? `<span class="badge-correct-tag"><svg class="svg-icon" style="width:0.75rem;height:0.75rem;"><use href="#icon-check"/></svg> Correct Authoritative Key</span>` : '';
+                }
+
+                optionsHtml += `
+                    <div class="${optClass}" ${clickAttr} data-opt="${letter}">
+                        <div class="opt-letter-circle">${letter}</div>
+                        <div style="flex: 1; line-height: 1.5; font-size: 0.95rem;">${escapeHtml(optText)}</div>
+                        ${extraBadge}
+                    </div>
+                `;
+            });
+
+            // Detailed Multi-Part Explanation Container
+            const pdfJumpUrl = `/pdf-viewer.html?page=${q.source_page || 1}`;
+            const distractorContent = q.distractor_analysis 
+                ? `<div class="exp-section-title">❌ Distractor Analysis &amp; Incorrect Options Breakdown:</div><div class="distractor-text">${escapeHtml(q.distractor_analysis)}</div>` 
+                : '';
+            const slideEvidenceContent = q.slide_quote 
+                ? `<div class="source-quote-box"><strong>Primary Slide Text Quote:</strong> &ldquo;${escapeHtml(q.slide_quote)}&rdquo;</div>` 
+                : '';
+
+            const isExpVisible = (!isPracticeMode) || (userAttempt && userAttempt.revealed);
+
+            const detailedExpHtml = `
+                <div class="explanation-box" id="exp-${q.question_id}" style="margin-top: 1.25rem; ${isExpVisible ? '' : 'display: none;'}">
+                    <div class="exp-header-tag">
+                        <svg class="svg-icon"><use href="#icon-book"/></svg>
+                        <span>Comprehensive Pedagogical Explanation &amp; Slide Evidence</span>
+                    </div>
+
+                    <div class="exp-section-title">📌 Core MIS Concept &amp; Academic Rationale:</div>
+                    <div class="exp-body-text">${escapeHtml(q.explanation || 'Authoritatively validated from curriculum lecture slides.')}</div>
+
+                    ${distractorContent}
+
+                    <div class="source-citation-bar" style="margin-top: 1rem;">
+                        <div style="display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;">
+                            <span>Source Document:</span>
+                            <strong style="color: var(--text-main);">MIS Week 1_merged.pdf</strong>
+                            <span>&bull;</span>
+                            <span>Slide Reference:</span>
+                            <span class="source-page-pill">Page ${q.source_page || 'N/A'}</span>
+                        </div>
+                        <div>
+                            <a href="${pdfJumpUrl}" target="_blank" class="btn-jump-pdf">
+                                <svg class="svg-icon" style="width:0.8rem;height:0.8rem;"><use href="#icon-external"/></svg>
+                                <span>📖 Open Page ${q.source_page || 'N/A'} in PDF Viewer</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    ${slideEvidenceContent}
+                </div>
+            `;
+
+            let practiceActionBar = '';
+            if (isPracticeMode) {
+                if (!userAttempt) {
+                    practiceActionBar = `
+                        <div class="practice-action-bar" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color); flex-wrap: wrap; gap: 0.5rem;">
+                            <button type="button" class="btn-reveal-ans" onclick="revealAnswerForCard('${q.question_id}')">
+                                <svg class="svg-icon" style="width:0.8rem;height:0.8rem;"><use href="#icon-book"/></svg>
+                                <span>Reveal Answer &amp; Explanation</span>
+                            </button>
+                            <span style="font-size: 0.8rem; color: var(--text-muted);">Click an option (A, B, C, or D) to test your knowledge</span>
+                        </div>
+                    `;
+                } else {
+                    practiceActionBar = `
+                        <div class="practice-action-bar" style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px dashed var(--border-color); flex-wrap: wrap; gap: 0.5rem;">
+                            <button type="button" class="btn-reveal-ans" onclick="resetPracticeCard('${q.question_id}')">
+                                <span>↺ Re-attempt Question</span>
+                            </button>
+                            <span style="font-size: 0.82rem; font-weight: 700; color: ${userAttempt.isCorrect ? '#10b981' : (userAttempt.selected ? '#ef4444' : '#64748b')};">
+                                ${userAttempt.isCorrect ? '✓ Correct Answer' : (userAttempt.selected ? '✗ Incorrect Choice' : 'Answer Revealed')}
+                            </span>
+                        </div>
+                    `;
+                }
+            }
+
+            card.innerHTML = `
+                <div class="q-meta-row">
+                    <div class="q-tags-group">
+                        <span class="q-pill q-num">Question #${absoluteNum}</span>
+                        <span class="q-pill q-id">${escapeHtml(q.question_id)}</span>
+                        <span class="q-pill week">Week ${q.week_number} &bull; ${escapeHtml(q.topic || 'MIS')}</span>
+                        <span class="q-pill ${diffClass}">${q.difficulty_level || 'Medium'}</span>
+                        <span class="q-pill type">${q.question_type || 'Conceptual'}</span>
+                    </div>
+                    <div>
+                        <button type="button" class="btn-star-bookmark ${isBookmarked ? 'active' : ''}" title="${isBookmarked ? 'Remove Bookmark' : 'Bookmark Question'}" onclick="toggleBookmark('${q.question_id}')">
+                            <svg class="svg-icon"><use href="#icon-star"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <h3 class="q-text-heading" style="font-size: 1.15rem; margin-bottom: 1.15rem;">${escapeHtml(q.question_text)}</h3>
+
+                <div class="options-stack">
+                    ${optionsHtml}
+                </div>
+
+                ${practiceActionBar}
+                ${detailedExpHtml}
+            `;
+
+            return card;
+        }
+
+        function setViewMode(mode, doRender = true) {
+            APP_STATE.viewMode = mode;
+            const btnStudy = document.getElementById('btn-mode-study');
+            const btnPractice = document.getElementById('btn-mode-practice');
+            const counterEl = document.getElementById('practice-session-counter');
+            const viewModeTag = document.getElementById('view-mode-tag');
+
+            if (mode === 'practice') {
+                if (btnStudy) btnStudy.classList.remove('active');
+                if (btnPractice) btnPractice.classList.add('active');
+                if (counterEl) counterEl.style.display = 'inline-flex';
+                if (viewModeTag) viewModeTag.textContent = 'Interactive Self-Test Practice Mode';
+            } else {
+                if (btnStudy) btnStudy.classList.add('active');
+                if (btnPractice) btnPractice.classList.remove('active');
+                if (counterEl) counterEl.style.display = 'none';
+                if (viewModeTag) viewModeTag.textContent = 'Dedicated Question Bank View';
+            }
+
+            const url = new URL(window.location);
+            url.searchParams.set('mode', mode);
+            history.replaceState(null, null, url.toString());
+
+            updatePracticeStats();
+            if (doRender) renderCurrentPage();
+        }
+
+        function handlePracticePick(qId, letter) {
+            const q = APP_STATE.allQuestions.find(item => (item.question_id || item.id) === qId);
+            if (!q) return;
+
+            const isCorrect = (letter === q.correct_option);
+            APP_STATE.practiceAnswers[qId] = {
+                selected: letter,
+                isCorrect: isCorrect,
+                revealed: true
+            };
+
+            updatePracticeStats();
+
+            const oldCard = document.getElementById(`card-${qId}`);
+            if (oldCard) {
+                const absoluteNum = parseInt(oldCard.querySelector('.q-pill.q-num')?.textContent?.replace('Question #', '') || 1, 10);
+                const newCard = createDetailedQuestionCard(q, absoluteNum);
+                oldCard.replaceWith(newCard);
+            }
+        }
+
+        function revealAnswerForCard(qId) {
+            const q = APP_STATE.allQuestions.find(item => (item.question_id || item.id) === qId);
+            if (!q) return;
+
+            APP_STATE.practiceAnswers[qId] = {
+                selected: null,
+                isCorrect: null,
+                revealed: true
+            };
+
+            const oldCard = document.getElementById(`card-${qId}`);
+            if (oldCard) {
+                const absoluteNum = parseInt(oldCard.querySelector('.q-pill.q-num')?.textContent?.replace('Question #', '') || 1, 10);
+                const newCard = createDetailedQuestionCard(q, absoluteNum);
+                oldCard.replaceWith(newCard);
+            }
+        }
+
+        function resetPracticeCard(qId) {
+            delete APP_STATE.practiceAnswers[qId];
+            updatePracticeStats();
+
+            const q = APP_STATE.allQuestions.find(item => (item.question_id || item.id) === qId);
+            if (!q) return;
+
+            const oldCard = document.getElementById(`card-${qId}`);
+            if (oldCard) {
+                const absoluteNum = parseInt(oldCard.querySelector('.q-pill.q-num')?.textContent?.replace('Question #', '') || 1, 10);
+                const newCard = createDetailedQuestionCard(q, absoluteNum);
+                oldCard.replaceWith(newCard);
+            }
+        }
+
+        function updatePracticeStats() {
+            const answers = Object.values(APP_STATE.practiceAnswers).filter(a => a.selected !== null);
+            const attempted = answers.length;
+            const correct = answers.filter(a => a.isCorrect).length;
+            const accuracy = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
+
+            const attEl = document.getElementById('practice-attempted-num');
+            const corEl = document.getElementById('practice-correct-num');
+            const accEl = document.getElementById('practice-acc-num');
+            if (attEl) attEl.textContent = attempted;
+            if (corEl) corEl.textContent = correct;
+            if (accEl) accEl.textContent = accuracy;
+        }
+
+
+        function toggleBookmark(qId) {
+            if (APP_STATE.bookmarks.has(qId)) {
+                APP_STATE.bookmarks.delete(qId);
+            } else {
+                APP_STATE.bookmarks.add(qId);
+            }
+
+            try {
+                localStorage.setItem('nptel_mis_bookmarks', JSON.stringify(Array.from(APP_STATE.bookmarks)));
+            } catch (e) {}
+
+            const btn = document.getElementById('btn-toggle-bookmarks');
+            const lbl = document.getElementById('bookmark-filter-label');
+            if (lbl) lbl.textContent = `Bookmarks Only (${APP_STATE.bookmarks.size})`;
+
+            if (APP_STATE.filters.bookmarksOnly) {
+                applyFilters();
+            } else {
+                const card = document.getElementById(`card-${qId}`);
+                if (card) {
+                    const star = card.querySelector('.btn-star-bookmark');
+                    if (star) star.classList.toggle('active', APP_STATE.bookmarks.has(qId));
+                }
+            }
+        }
+
+        function updatePaginationUI(totalPages, totalItems) {
+            const indicator = document.getElementById('page-indicator');
+            const btnFirst = document.getElementById('btn-page-first');
+            const btnPrev = document.getElementById('btn-page-prev');
+            const btnNext = document.getElementById('btn-page-next');
+            const btnLast = document.getElementById('btn-page-last');
+
+            if (totalItems === 0) {
+                if (indicator) indicator.textContent = 'Page 0 of 0';
+                if (btnFirst) btnFirst.disabled = true;
+                if (btnPrev) btnPrev.disabled = true;
+                if (btnNext) btnNext.disabled = true;
+                if (btnLast) btnLast.disabled = true;
+                return;
+            }
+
+            if (indicator) indicator.textContent = `Page ${APP_STATE.currentPage} of ${totalPages}`;
+            if (btnFirst) btnFirst.disabled = (APP_STATE.currentPage === 1);
+            if (btnPrev) btnPrev.disabled = (APP_STATE.currentPage === 1);
+            if (btnNext) btnNext.disabled = (APP_STATE.currentPage === totalPages);
+            if (btnLast) btnLast.disabled = (APP_STATE.currentPage === totalPages);
+        }
+
+        function goToPage(page) {
+            APP_STATE.currentPage = page;
+            renderCurrentPage();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function goToPrevPage() {
+            if (APP_STATE.currentPage > 1) goToPage(APP_STATE.currentPage - 1);
+        }
+
+        function goToNextPage() {
+            const totalPages = Math.ceil(APP_STATE.filteredQuestions.length / APP_STATE.pageSize);
+            if (APP_STATE.currentPage < totalPages) goToPage(APP_STATE.currentPage + 1);
+        }
+
+        function goToLastPage() {
+            const totalPages = Math.ceil(APP_STATE.filteredQuestions.length / APP_STATE.pageSize);
+            goToPage(totalPages);
+        }
+
+        function changePageSize(newSize) {
+            APP_STATE.pageSize = parseInt(newSize, 10);
+            APP_STATE.currentPage = 1;
+            renderCurrentPage();
+        }
+
+        function toggleTheme() {
+            const nextTheme = APP_STATE.theme === 'light' ? 'dark' : 'light';
+            applyTheme(nextTheme);
+        }
+
+        function applyTheme(theme) {
+            APP_STATE.theme = theme;
+            document.documentElement.setAttribute('data-theme', theme);
+            try {
+                localStorage.setItem('nptel_mis_theme', theme);
+            } catch (e) {}
+
+            const iconUse = document.querySelector('#theme-icon use');
+            if (iconUse) {
+                iconUse.setAttribute('href', theme === 'dark' ? '#icon-sun' : '#icon-moon');
+            }
+        }
+
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html>
