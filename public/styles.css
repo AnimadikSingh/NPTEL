@@ -1967,3 +1967,126 @@ button {
     flex-wrap: wrap !important;
   }
 }
+
+
+/* ==========================================================================
+   ADVANCED MOBILE & TABLET UX POLISH
+   ========================================================================== */
+
+/* 1. Touch Target & Tap Highlights */
+button, a, input, select, .option-box, .nav-pill, .assignment-week-tab {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 2. Interactive Option Boxes (Thumb-friendly & Haptic feedback) */
+.option-box {
+  min-height: 48px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.option-box:active {
+  transform: scale(0.99);
+}
+
+.opt-letter-circle {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+/* 3. Sticky Table Column & Responsive Table Polish on Mobile */
+@media (max-width: 768px) {
+  .table-responsive {
+    border-radius: var(--radius-md);
+    box-shadow: inset -6px 0 8px -4px rgba(0,0,0,0.06);
+  }
+  .custom-table th:first-child,
+  .custom-table td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: var(--bg-card);
+    z-index: 2;
+    box-shadow: 2px 0 6px rgba(0,0,0,0.06);
+  }
+  .custom-table th:first-child {
+    background-color: var(--bg-surface);
+  }
+}
+
+/* 4. Horizontal Swipeable Week Tabs on Assignments Page */
+@media (max-width: 900px) {
+  #assignment-week-tabs {
+    display: flex !important;
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+    flex-wrap: nowrap !important;
+    padding: 0.35rem 0.2rem 0.65rem 0.2rem !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+    gap: 0.5rem !important;
+  }
+  #assignment-week-tabs::-webkit-scrollbar {
+    display: none;
+  }
+  .assignment-week-tab {
+    flex-shrink: 0 !important;
+    min-height: 40px;
+    padding: 0.45rem 1rem !important;
+  }
+}
+
+/* 5. Palette Grid Max Height Scroll on Mobile */
+.palette-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
+  gap: 0.35rem;
+  max-height: 340px;
+  overflow-y: auto;
+  padding: 0.4rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-surface);
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 768px) {
+  .palette-grid {
+    max-height: 260px;
+  }
+}
+
+/* 6. Mobile Action Buttons Grid in Hero Banner */
+@media (max-width: 640px) {
+  .pata-hero-layout .nav-pill {
+    flex: 1 1 calc(50% - 0.5rem);
+    justify-content: center;
+    min-height: 44px;
+    padding: 0.6rem 0.8rem !important;
+  }
+  .mode-pill-btn {
+    min-height: 42px !important;
+  }
+  .q-pill.q-id {
+    display: none !important; /* Hide technical UUID on small mobile to give room to Week & Difficulty */
+  }
+  .q-meta-row {
+    margin-bottom: 0.85rem !important;
+  }
+  .explanation-box {
+    padding: 0.85rem 0.95rem !important;
+    font-size: 0.88rem !important;
+  }
+  .source-citation-bar {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.75rem !important;
+  }
+  .btn-jump-pdf {
+    width: 100% !important;
+    justify-content: center !important;
+    min-height: 42px;
+  }
+}
