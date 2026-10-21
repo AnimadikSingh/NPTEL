@@ -57,6 +57,10 @@ class MockTestSubmit(BaseModel):
 # REST API Endpoints
 # -------------------------------------------------------------
 
+@app.get("/_vercel/insights/script.js")
+def vercel_insights_stub():
+    return Response(content="// Vercel Insights local stub\n", media_type="application/javascript")
+
 @app.get("/api/stats")
 def get_stats():
     conn = get_connection()

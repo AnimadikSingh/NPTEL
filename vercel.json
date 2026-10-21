@@ -12,6 +12,10 @@
   ],
   "routes": [
     {
+      "src": "^/_vercel/(.*)",
+      "continue": true
+    },
+    {
       "src": "/api/(.*)",
       "dest": "api/index.py"
     },
