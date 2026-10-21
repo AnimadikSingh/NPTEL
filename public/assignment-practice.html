@@ -465,26 +465,48 @@
 
         // Fetch data
         async function loadAssignments() {
-            try {
-                const res = await fetch('/api/assignments');
-                const data = await res.json();
-                STATE.allQuestions = data.questions || [];
-
-                // Check query parameters
-                const params = new URLSearchParams(window.location.search);
-                const weekParam = params.get('week');
-                if (weekParam && (weekParam === 'all' || (parseInt(weekParam) >= 1 && parseInt(weekParam) <= 12))) {
-                    STATE.currentWeek = weekParam;
-                } else {
-                    STATE.currentWeek = '1';
+            // 1. Check preloaded assignments for instant 0ms offline/CDN loading
+            if (window.PRELOADED_ASSIGNMENTS && Array.isArray(window.PRELOADED_ASSIGNMENTS) && window.PRELOADED_ASSIGNMENTS.length > 0) {
+                STATE.allQuestions = window.PRELOADED_ASSIGNMENTS;
+            } else {
+                try {
+                    const res = await fetch('/api/assignments');
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (data && data.questions) {
+                            STATE.allQuestions = data.questions;
+                        }
+                    }
+                } catch (err) {
+                    console.warn("Failed to fetch /api/assignments; falling back to export JSON", err);
                 }
 
-                document.getElementById('practice-week-select').value = STATE.currentWeek;
-                filterActiveQuestions();
-                startTimer();
-            } catch (err) {
-                console.error("Failed to load questions:", err);
+                if (STATE.allQuestions.length === 0) {
+                    try {
+                        const fallback = await fetch('/exports/nptel_mis_assignments_120_mcqs.json');
+                        if (fallback.ok) {
+                            const json = await fallback.json();
+                            if (Array.isArray(json) && json.length > 0) {
+                                STATE.allQuestions = json;
+                            }
+                        }
+                    } catch (e) {}
+                }
             }
+
+            // Check query parameters
+            const params = new URLSearchParams(window.location.search);
+            const weekParam = params.get('week');
+            if (weekParam && (weekParam === 'all' || (parseInt(weekParam) >= 1 && parseInt(weekParam) <= 12))) {
+                STATE.currentWeek = weekParam;
+            } else {
+                STATE.currentWeek = '1';
+            }
+
+            const sel = document.getElementById('practice-week-select');
+            if (sel) sel.value = STATE.currentWeek;
+            filterActiveQuestions();
+            startTimer();
         }
 
         function changeWeek(week) {

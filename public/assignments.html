@@ -314,21 +314,36 @@
 
         // Fetch assignments
         async function loadAssignments() {
-            try {
-                const res = await fetch('/api/assignments');
-                const data = await res.json();
-                STATE.allQuestions = data.questions || [];
-                
-                // Read week from URL parameter if present
-                const params = new URLSearchParams(window.location.search);
-                const weekParam = params.get('week');
-                if (weekParam && (weekParam === 'all' || (parseInt(weekParam) >= 1 && parseInt(weekParam) <= 12))) {
-                    STATE.selectedWeek = weekParam === 'all' ? 'all' : parseInt(weekParam);
+            // 1. Check preloaded assignments for instant 0ms offline/CDN loading
+            if (window.PRELOADED_ASSIGNMENTS && Array.isArray(window.PRELOADED_ASSIGNMENTS) && window.PRELOADED_ASSIGNMENTS.length > 0) {
+                STATE.allQuestions = window.PRELOADED_ASSIGNMENTS;
+            } else {
+                try {
+                    const res = await fetch('/api/assignments');
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (data && data.questions) {
+                            STATE.allQuestions = data.questions;
+                        }
+                    }
+                } catch (err) {
+                    console.warn("API request /api/assignments failed; falling back to export JSON", err);
                 }
 
-                applyFilters();
-            } catch (err) {
-                console.error("Failed to load assignments:", err);
+                if (STATE.allQuestions.length === 0) {
+                    try {
+                        const fallback = await fetch('/exports/nptel_mis_assignments_120_mcqs.json');
+                        if (fallback.ok) {
+                            const json = await fallback.json();
+                            if (Array.isArray(json) && json.length > 0) {
+                                STATE.allQuestions = json;
+                            }
+                        }
+                    } catch (e) {}
+                }
+            }
+
+            if (STATE.allQuestions.length === 0) {
                 document.getElementById('assignments-container').innerHTML = `
                     <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 3rem; text-align: center; border-radius: var(--radius-lg);">
                         <h3 style="color: #ef4444; margin-bottom: 0.5rem;">Failed to load assignments</h3>
@@ -336,14 +351,34 @@
                         <button type="button" class="btn-primary" onclick="loadAssignments()">Retry</button>
                     </div>
                 `;
+                return;
             }
+
+            // Read week from URL parameter if present
+            const params = new URLSearchParams(window.location.search);
+            const weekParam = params.get('week');
+            if (weekParam && (weekParam === 'all' || (parseInt(weekParam) >= 1 && parseInt(weekParam) <= 12))) {
+                STATE.selectedWeek = weekParam === 'all' ? 'all' : parseInt(weekParam);
+            }
+
+            // Update tab UI active state
+            document.querySelectorAll('.assignment-week-tab').forEach(tab => {
+                const tabWeek = tab.getAttribute('data-week');
+                if (tabWeek === String(STATE.selectedWeek)) {
+                    tab.classList.add('active');
+                } else {
+                    tab.classList.remove('active');
+                }
+            });
+
+            applyFilters();
         }
 
         function selectWeek(week) {
             STATE.selectedWeek = week;
             const btnExam = document.getElementById('btn-launch-assign-exam');
             if (btnExam) {
-                btnExam.href = (week === 'all') ? '/assignment-practice.html' : `/assignment-practice.html?week=${wk}`;
+                btnExam.href = (week === 'all') ? '/assignment-practice.html' : `/assignment-practice.html?week=${week}`;
             }
             
             // Update URL
